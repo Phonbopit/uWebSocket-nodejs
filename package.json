@@ -1,0 +1,14 @@
+{
+  "name": "ws-nodejs",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd rs_ws_client && cargo build --release",
+    "start:server": "node app.js",
+    "start:client": "cd rs_ws_client && RUST_LOG=debug ./target/release/rs_ws_client"
+  },
+  "repository": "git@github.com:Phonbopit/uWebSocket-nodejs.git",
+  "license": "MIT",
+  "dependencies": {
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v20.10.0"
+  }
+}
