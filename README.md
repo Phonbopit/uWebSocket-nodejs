@@ -7,6 +7,7 @@ uWebSocket with Node.js
 ```
 yarn add uWebSockets.js@uNetworking/uWebSockets.js#v20.10.0
 ```
+> You can choose any []release version](https://github.com/uNetworking/uWebSockets.js/releases)
 
 ## Start server (Node.js)
 
@@ -29,5 +30,4 @@ yarn build
 yarn start:client
 ```
 
-
-> You can choose any []release version](https://github.com/uNetworking/uWebSockets.js/releases)
+Done!
